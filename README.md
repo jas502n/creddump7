@@ -31,10 +31,10 @@ Run cachedump.py on the SYSTEM and SECURITY hives to extract cached domain creds
 usage: ./cachedump.py <system hive> <security hive> <Vista/7>
 
 Example (Windows Vista/7):
-./cachedump.py /path/to/System32/config/SYSTEM /path/to/System32/config/SECURITY true
+./cachedump.py C:\Windows\System32\config\SYSTEM C:\Windows\System32\config\SECURITY true
 
 Example (Windows XP):
-./cachedump.py /path/to/System32/SYSTEM /path/to/System32/config/SECURITY false
+./cachedump.py C:\Windows\System32\SYSTEM C:\Windows\System32\config\SECURITY false
 
 # ./cachedump.py /mnt/win/Windows/System32/config/SYSTEM /mnt/win/Windows/System32/config/SECURITY true |tee hashes
 nharpsis:6b29dfa157face3f3d8db489aec5cc12:acme:acme.local
